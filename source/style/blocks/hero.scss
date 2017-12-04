@@ -1,0 +1,27 @@
+.hero {
+	background: url('../img/hero/hero_bg.png') no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	@include wMax480() {
+		height: 267px;
+	}
+}
+.hero__menu {
+	border-bottom: 1px solid #fff;
+	margin: 0 67px;
+	@include wMax700() {
+		margin: 0 15px;
+	}
+	
+}
+
+.hero__scroll-down {
+	color: #BEBEBE;
+}
+.hero__scroll-down a {
+	background: url("../img/icons/down.png") no-repeat center center;
+}

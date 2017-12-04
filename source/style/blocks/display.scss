@@ -1,0 +1,10 @@
+.d-sm-none {
+	@include wMax480() {
+		display: none;
+	}
+}
+.d-sm-block {
+	@include wMax480() {
+		display: block;
+	}
+}

@@ -1,0 +1,20 @@
+.menu {
+	display: flex;
+	justify-content: center;
+	height: 100px;
+	align-items: center;
+}
+.menu a {
+	color:#F1F1F1;
+	margin-right: 60px;
+	font-size: 24px;
+    text-align: center;
+	@include wMax650() {
+		margin-right: 30px;
+		font-size: 18px;
+	}
+}
+.menu a:nth-last-child(-n+1) {
+	margin-right: 0;
+	color: #202020;
+}
